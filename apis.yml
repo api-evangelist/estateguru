@@ -1,7 +1,30 @@
 aid: estateguru
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/estateguru.png
 name: Estateguru
-description: Estateguru is a company surfaced as a portfolio company of speedinvest and added to the API
-  Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Estateguru is a pan-European property-backed crowdfunding and P2P lending
+  platform headquartered in Tallinn, Estonia. Founded in 2013, it connects
+  retail and institutional investors with short-to-medium-term business loans
+  secured by registered mortgages on real estate, operating across Estonia,
+  Latvia, Lithuania, Finland, Germany, Spain and Portugal. The platform has
+  facilitated over EUR 935 million in funding for 150,000+ investors from more
+  than 100 countries and holds an EU ECSPR crowdservice-provider licence.
+  Estateguru operates as a consumer investment product through its website and
+  iOS/Android mobile apps; it publishes no public developer API, OpenAPI
+  definition, SDKs, or agent surface. This profile was added to the API
+  Evangelist network as a portfolio lead of Speedinvest and enriched with its
+  genuinely published company link properties.
 url: https://raw.githubusercontent.com/api-evangelist/estateguru/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +32,44 @@ x-backed-by:
 - speedinvest
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-no-public-api: true
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Real Estate
+- Crowdfunding
+- P2P Lending
+- Fintech
+- Investing
+- Property Finance
+- Europe
 apis: []
+common:
+- type: Website
+  url: https://estateguru.co/
+- type: Blog
+  url: https://estateguru.co/blog/
+- type: SignUp
+  url: https://estateguru.co/get-started/
+- type: Login
+  url: https://auth.estateguru.co/en
+- type: Support
+  url: https://estateguru.co/contact-us/
+- type: TermsOfService
+  url: https://estateguru.co/user-terms/
+- type: PrivacyPolicy
+  url: https://estateguru.co/privacy-policy/
+- type: GitHubOrganization
+  url: https://github.com/estateguru
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
