@@ -49,7 +49,7 @@ created: '2026-07-17'
 modified: '2026-07-19'
 tags:
 - Company
-- Real-Estate
+- Real Estate
 - Crowdfunding
 - P2P Lending
 - Fintech
@@ -65,6 +65,7 @@ tags_raw:
 - Investing
 - Property Finance
 - Europe
+- Real-Estate
 apis: []
 common:
 - type: Website
