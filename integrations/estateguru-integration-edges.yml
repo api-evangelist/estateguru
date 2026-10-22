@@ -1,0 +1,43 @@
+edges:
+- partner_name: AMF white list (authorised crypto-asset service providers and crowdfunding platforms, France)
+  partner: null
+  partner_match: register
+  type: register
+  channel: regulator-register
+  relationship: standard-participant
+  direction: partner-built
+  evidence: https://www.amf-france.org/fr/espace-epargnants/proteger-son-epargne/listes-blanches
+  category: French market-authority authorisation (AMF white list)
+  contract_reference:
+    register: AMF white list (authorised crypto-asset service providers and crowdfunding platforms, France)
+    spec_file: null
+    standard: null
+    role: amf-authorised-crowdfunding-provider
+    registrations:
+    - registered_name: Estateguru OÜ
+      role: amf-authorised-crowdfunding-provider
+      licences:
+      - PSFP | PSFP européen exerçant en France
+      register_country: null
+      matched_domain: estateguru.co
+      matched_by: domain
+      register_id: N/A - Passeport
+      since: '2023-06-01'
+      services:
+      - Facilitation de l'octroi de prêts
+      brands:
+      - Estateguru
+    signal_note: 'participation only: a supervisory authorisation / passport notification; no API conformance is
+      published by this register'
+    detected_by: sweep-france-regafi-acpr.py
+    detected: '2026-10-22'
+  detected_by: sweep-france-regafi-acpr.py
+  first_seen: '2026-10-22'
+generated: '2026-10-22'
+method: searched
+source:
+- https://www.regafi.fr/
+- https://www.amf-france.org/fr/espace-epargnants/proteger-son-epargne/listes-blanches
+checked:
+- https://www.amf-france.org/fr/espace-epargnants/proteger-son-epargne/listes-blanches
+- https://www.regafi.fr/
